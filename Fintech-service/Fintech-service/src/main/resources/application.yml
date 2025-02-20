@@ -1,0 +1,13 @@
+server:
+  port: 9098
+spring:
+  application:
+    name: Fintech-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/project
+    username: root
+    password: Arjun@89511
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
